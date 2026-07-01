@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Douglas Spencer # the website title (if blank, full name will be used instead)
 first_name: Douglas
 middle_name: G.
 last_name: Spencer
@@ -216,6 +216,22 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/plugins.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _books/
+  - _projects/
+  - _teachings/
+  - _news/
+  - news
   - al-folio-upgrade-report.md
   - bin/
   - CONTRIBUTING.md
