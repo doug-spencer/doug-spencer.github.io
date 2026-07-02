@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://doug-spencer.github.io/sitemap.xml
+Sitemap: https://douglas-spencer.co.uk/sitemap.xml
