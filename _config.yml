@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Douglas Spencer # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Douglas
 middle_name: G.
 last_name: Spencer
@@ -218,13 +218,13 @@ include: ["_pages"]
 exclude:
   # - _pages/blog.md
   # - _pages/books.md
-  # - _pages/cv.md
+  - _pages/cv.md
   # - _pages/dropdown.md
   # - _pages/news.md
   # - _pages/plugins.md
   # - _pages/profiles.md
   # - _pages/projects.md
-  # - _pages/publications.md
+  - _pages/publications.md
   # - _pages/repositories.md
   # - _pages/teaching.md
   # - _books/
