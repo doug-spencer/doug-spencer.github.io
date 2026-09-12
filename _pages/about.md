@@ -6,15 +6,17 @@ subtitle: PhD student in Statistics and Machine Learning at Imperial College Lon
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  image: me.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p><i class="fa-solid fa-envelope fa-sm"></i> <a href="mailto:d.spencer26@imperial.ac.uk">d.spencer26@imperial.ac.uk</a></p>
+    <p><i class="ai ai-google-scholar fa-sm"></i> <a href="https://scholar.google.com/citations?user=RxbMdOEAAAAJ" target="_blank">Google Scholar</a></p>
+    <p><i class="fa-brands fa-github fa-sm"></i> <a href="https://github.com/doug-spencer" target="_blank">GitHub</a></p>
+    <p><i class="fa-solid fa-file-pdf fa-sm"></i> <a href="/assets/pdf/example_pdf.pdf" target="_blank">CV</a></p>
+    <p><i class="fa-solid fa-location-dot fa-sm"></i> Huxley Building, Imperial College London</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
