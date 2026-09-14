@@ -232,7 +232,7 @@ exclude:
   # - _projects/
   # - _teachings/
   # - _news/
-  - _posts/
+  # - _posts/
   - news
   - al-folio-upgrade-report.md
   - bin/
