@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: /
+subtitle:
 
 profile:
   align: right
@@ -29,6 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first year PhD student in Statistics and Machine Learning at Imperial College London as part of the [StatML CDT](https://statml.io/). I recently graduated from a Master's in Mathematical Sciences from [Reuben College, Oxford](https://reuben.ox.ac.uk/home), before which I studied a Bachelor's in Mathematics and Computer Science at The University of Manchester.
+I am a first year PhD student in Statistics and Machine Learning at Imperial College London as part of the [StatML CDT](https://statml.io/). 
 
-I'm based in London, free free to drop me an email or a message on LinkedIn if you want to chat!
+I recently graduated from a Master's in Mathematical Sciences from [Reuben College, Oxford](https://reuben.ox.ac.uk/home), before which I studied a Bachelor's in Mathematics and Computer Science at The University of Manchester.
+
+Feel free to drop me an email or a message on LinkedIn if you want to chat!
