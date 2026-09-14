@@ -2,35 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in Statistics and Machine Learning at Imperial College London.
+subtitle: /
 
 profile:
   align: right
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><i class="fa-solid fa-envelope fa-sm"></i> <a href="mailto:d.spencer26@imperial.ac.uk">d.spencer26@imperial.ac.uk</a></p>
-    <p><i class="ai ai-google-scholar fa-sm"></i> <a href="https://scholar.google.com/citations?user=RxbMdOEAAAAJ" target="_blank">Google Scholar</a></p>
-    <p><i class="fa-brands fa-github fa-sm"></i> <a href="https://github.com/doug-spencer" target="_blank">GitHub</a></p>
-    <p><i class="fa-solid fa-file-pdf fa-sm"></i> <a href="/assets/pdf/example_pdf.pdf" target="_blank">CV</a></p>
-    <p><i class="fa-solid fa-location-dot fa-sm"></i> Huxley Building, Imperial College London</p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-envelope fa-sm"></i> <a href="mailto:d.spencer26@imperial.ac.uk">d.spencer26@imperial.ac.uk</a></p>
+    <p style="display: block; white-space: nowrap;"><i class="ai ai-google-scholar fa-sm"></i> <a href="https://scholar.google.com/citations?user=RxbMdOEAAAAJ" target="_blank">Google Scholar</a></p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-brands fa-github fa-sm"></i> <a href="https://github.com/doug-spencer" target="_blank">GitHub</a></p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-file-pdf fa-sm"></i> <a href="/assets/pdf/example_pdf.pdf" target="_blank">CV</a></p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-location-dot fa-sm"></i> Huxley Building, Imperial College London</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a first year PhD student in [Statistics and Machine Learning](https://statml.io/) at Imperial College London and the University of Oxford. I recently graduated from an MSc in Mathematical Sciences from [Reuben College, Oxford](https://reuben.ox.ac.uk/home), and before that I studied a mathematics and computer science at The University of Manchester. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
