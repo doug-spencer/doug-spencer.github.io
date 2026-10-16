@@ -61,7 +61,29 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// Local overrides of gem-owned files are allowed only when acknowledged via
+// `bundle exec al-folio upgrade overrides accept <path>` (tracked in .al-folio-overrides.yml).
+const acknowledgedOverrides = exists(".al-folio-overrides.yml")
+  ? new Set([...read(".al-folio-overrides.yml").matchAll(/^ {2}(\S[^:]*):\s*$/gm)].map((match) => match[1]))
+  : new Set();
+const listFiles = (relDir) =>
+  fs.readdirSync(path.join(root, relDir), { withFileTypes: true }).flatMap((entry) => {
+    const relPath = path.posix.join(relDir, entry.name);
+    return entry.isDirectory() ? listFiles(relPath) : [relPath];
+  });
+
+for (const overridableDir of ["_includes", "_layouts", "_sass"]) {
+  if (!exists(overridableDir)) continue;
+  for (const relPath of listFiles(overridableDir)) {
+    if (!acknowledgedOverrides.has(relPath)) {
+      failures.push(
+        `Starter must not own core component path \`${relPath}\` unless it is an acknowledged override; run \`bundle exec al-folio upgrade overrides accept ${relPath}\` or move it to the owning gem.`
+      );
+    }
+  }
+}
+
+for (const forbiddenPath of ["_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
