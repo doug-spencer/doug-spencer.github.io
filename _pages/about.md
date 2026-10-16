@@ -33,4 +33,4 @@ I am a first year PhD student in Statistics and Machine Learning at Imperial Col
 
 I recently graduated from a Master's in Mathematical Sciences from [Reuben College, Oxford](https://reuben.ox.ac.uk/home), before which I studied a Bachelor's in Mathematics and Computer Science at The University of Manchester.
 
-Feel free to drop me an email or a message on LinkedIn if you want to chat!
+Feel free to drop me an [email](d.spencer26@imperial.ac.uk) or a message on [LinkedIn](https://www.linkedin.com/in/douglas-gerard-spencer/) if you want to chat!
