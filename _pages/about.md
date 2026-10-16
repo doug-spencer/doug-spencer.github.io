@@ -10,10 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-envelope fa-sm"></i> <a href="mailto:d.spencer26@imperial.ac.uk">d.spencer26@imperial.ac.uk</a></p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-brands fa-linkedin fa-sm"></i> <a href="https://www.linkedin.com/in/douglas-gerard-spencer/" target="_blank">LinkedIn</a></p>
     <p style="display: block; white-space: nowrap;"><i class="ai ai-google-scholar fa-sm"></i> <a href="https://scholar.google.com/citations?user=RxbMdOEAAAAJ" target="_blank">Google Scholar</a></p>
     <p style="display: block; white-space: nowrap;"><i class="fa-brands fa-github fa-sm"></i> <a href="https://github.com/doug-spencer" target="_blank">GitHub</a></p>
-    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-file-pdf fa-sm"></i> <a href="/assets/pdf/example_pdf.pdf" target="_blank">CV</a></p>
-    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-location-dot fa-sm"></i> Huxley Building, Imperial College London</p>
+    <p style="display: block; white-space: nowrap;"><i class="fa-solid fa-file-pdf fa-sm"></i> <a href="/assets/pdf/cv.pdf" target="_blank">CV</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
